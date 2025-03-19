@@ -7,8 +7,8 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head = None
-        self.tail = None  # Add tail reference for O(1) append
-        self.size = 0     # Track size for O(1) length lookup
+        self.tail = None
+        self.size = 0
 
     def append(self, data):
         new_node = Node(data)
@@ -24,7 +24,7 @@ class LinkedList:
         new_head = Node(data)
         new_head.next = self.head
         self.head = new_head
-        if self.tail is None:  # If list was empty
+        if self.tail is None:
             self.tail = self.head
         self.size += 1
 
@@ -35,14 +35,14 @@ class LinkedList:
         if self.head.data == data:
             self.head = self.head.next
             self.size -= 1
-            if self.head is None:  # List is now empty
+            if self.head is None:
                 self.tail = None
             return
             
         current = self.head
         while current.next:
             if current.next.data == data:
-                if current.next == self.tail:  # If removing the last node
+                if current.next == self.tail:
                     self.tail = current
                 current.next = current.next.next
                 self.size -= 1
