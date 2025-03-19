@@ -1,7 +1,7 @@
 class Pilha:
     def __init__(self, size):
         self.size = size
-        self.stack = [0 for i in range(size)]
+        self.stack = [None for _ in range(size)]
         self.top = 0
 
     def push(self, value):
@@ -13,3 +13,16 @@ class Pilha:
         if self.top == 0: raise Exception("Stack is empty")
         self.top -= 1
         self.stack.pop()
+
+    def top(self):
+        if self.top == 0: raise Exception("Stack is empty")
+        return self.stack[self.top - 1]
+    
+    def full(self):
+        return self.top == self.size
+    
+    def empty(self):
+        return self.top == 0
+    
+    def size(self):
+        return len(self.stack)
