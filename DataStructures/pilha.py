@@ -26,3 +26,6 @@ class Pilha:
     
     def size(self):
         return len(self.stack)
+    
+    def print(self):
+        print(self.stack)
