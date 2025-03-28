@@ -1,27 +1,27 @@
-# **Estruturas de Dados 🚀**  
+# **Data Structures 🚀**
 
-Repositório para armazenar e revisar códigos de Estruturas de Dados durante meus estudos na faculdade. Além de consolidar o aprendizado, utilizo este espaço para praticar versionamento com Git.  
+Repository to store and review Data Structures code during my college studies. In addition to consolidating learning, I use this space to practice version control with Git.
 
-## 📌 **Conteúdo**  
-Aqui você encontrará implementações de diversas estruturas, incluindo:  
-✅ Listas (simples, duplas, circulares)  
-✅ Pilhas e Filas  
-✅ Árvores (binária, AVL, etc.)  
-✅ Grafos  
-✅ Tabelas Hash  
+## 📌 **Content**  
+Here you will find implementations of various structures, including:  
+✅ Lists (single, double, circular)  
+✅ Stacks and Queues  
+✅ Trees (binary, AVL, etc.)  
+✅ Graphs  
+✅ Hash Tables  
 
-## ⚙️ **Tecnologias Utilizadas**  
-- Linguagem: *Python*  
-- Git/GitHub para versionamento  
+## ⚙️ **Technologies Used**  
+- Language: *Python*  
+- Git/GitHub for version control  
 
-## 🚀 **Como Usar**  
-1. Clone o repositório:  
+## 🚀 **How to Use**  
+1. Clone the repository:  
    ```bash
    git clone https://github.com/Nickkcj/data-structures.git
    ```  
-2. Navegue até a estrutura desejada e execute os códigos.  
+2. Navigate to the desired structure and run the code.
 
-## 📚 **Objetivo**  
-Este repositório serve como um espaço de aprendizado contínuo, ajudando a reforçar conceitos e a desenvolver boas práticas no uso do Git.  
+## 📚 **Objective**  
+This repository serves as a space for continuous learning, helping to reinforce concepts and develop good practices in Git usage.
 
 ---  
