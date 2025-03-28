@@ -68,16 +68,4 @@ class BinarySearchTree:
 
         return root
 
-# Example usage
-bst = BinarySearchTree()
-bst.root = bst.insert(bst.root, 15)
-bst.root = bst.insert(bst.root, 10)
-bst.root = bst.insert(bst.root, 20)
-bst.root = bst.insert(bst.root, 8)
-bst.root = bst.insert(bst.root, 12)
-bst.inorder(bst.root)
-print()
-print("Found" if bst.search(bst.root, 12) else "Not Found")
-print("Found" if bst.search(bst.root, 20) else "Not Found")
-bst.root = bst.delete_node(bst.root, 10)
-bst.inorder(bst.root)
+

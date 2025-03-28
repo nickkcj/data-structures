@@ -4,8 +4,7 @@ li = [5, 7, 9, 1, 3]
 
 #Converts a regular list into a valid heap-in-place
 heapq.heapify(li)
-
-print(li) # [1, 3, 9, 7, 5]
+ # [1, 3, 9, 7, 5]
 
 #Adds an element to the heap while maintaining the heap property
 heapq.heappush(li, 4)
@@ -25,8 +24,5 @@ heapq.nsmallest(n, li)
 #Pops the smallest and inserts a new element
 heapq.heapreplace(li, 2)
 
-#Merges two heaps
-li1 = [1, 3, 5]
-li2 = [2, 4, 6]
-h3 = heapq.merge(li1, li2)
-print(h3)
+#Merges multiple heaps into a single heap
+heapq.merge(li, li2, li3)

@@ -41,3 +41,11 @@ class LinkedQueue:
     
     def getSize(self):
         return self.size
+    
+    def print(self):
+        current = self.head
+        while current is not None:
+            print(current.value, end=" ")
+            current = current.getNext()
+        print()
+
