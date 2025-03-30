@@ -1,6 +1,6 @@
 from DataStructures.linear.linked_queue import LinkedQueue
 from DataStructures.non_linear.matrix import SuperMatrix
-from DataStructures.linear.array import SuperArray
+from DataStructures.linear.super_array import SuperArray
 from DataStructures.linear.queues import Queue
 from DataStructures.linear.stack import Stack
 from DataStructures.non_linear.binary_search_tree import BinarySearchTree
