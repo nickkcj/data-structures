@@ -1,11 +1,11 @@
-from DataStructures.linked_queue import LinkedQueue
-from DataStructures.matrix import SuperMatrix
-from DataStructures.array import SuperArray
-from DataStructures.queues import Queue
-from DataStructures.stack import Stack
-from DataStructures.binary_search_tree import BinarySearchTree
-from DataStructures.linked_list import LinkedList
-from DataStructures.graph import Graph
+from DataStructures.linear.linked_queue import LinkedQueue
+from DataStructures.non_linear.matrix import SuperMatrix
+from DataStructures.linear.array import SuperArray
+from DataStructures.linear.queues import Queue
+from DataStructures.linear.stack import Stack
+from DataStructures.non_linear.binary_search_tree import BinarySearchTree
+from DataStructures.linear.linked_list import LinkedList
+from DataStructures.non_linear.graph import Graph
 
 # # Example usage of LinkedQueue (Queue)
 # queue = LinkedQueue()
