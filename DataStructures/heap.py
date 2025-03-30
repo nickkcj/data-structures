@@ -24,5 +24,11 @@ heapq.nsmallest(n, li)
 #Pops the smallest and inserts a new element
 heapq.heapreplace(li, 2)
 
+li2 = [8, 6, 2, 4]
+heapq.heapify(li2)
+
+li3 = [10, 12, 14, 11]
+heapq.heapify(li3)
+
 #Merges multiple heaps into a single heap
 heapq.merge(li, li2, li3)

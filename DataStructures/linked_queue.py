@@ -12,18 +12,18 @@ class Element:
 class LinkedQueue:
     def __init__(self):
         self.head = None
-        self.tall = None
+        self.tail = None
         self.size = 0
 
     def enqueue(self, value):
         if self.head is None:
             self.head = Element(value)
-            self.tall = self.head
+            self.tail = self.head
 
         else:
             new_element = Element(value)
-            self.tall.setNext(new_element)
-            self.tall = new_element
+            self.tail.setNext(new_element)
+            self.tail = new_element
         self.size += 1
 
     def dequeue(self):

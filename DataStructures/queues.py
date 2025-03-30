@@ -1,7 +1,7 @@
 from typing import Deque, Any
 from collections import deque
 
-class Fila:
+class Queue:
     def __init__(self, tamanho: None):
         self.fila = deque(maxlen=tamanho)
         
