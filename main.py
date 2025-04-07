@@ -6,6 +6,8 @@ from DataStructures.linear.stack import Stack
 from DataStructures.non_linear.binary_search_tree import BinarySearchTree
 from DataStructures.linear.linked_list import LinkedList
 from DataStructures.non_linear.graph import Graph
+from DataStructures.linear.linked_stack import LinkedStack
+
 
 # # Example usage of LinkedQueue (Queue)
 # queue = LinkedQueue()
